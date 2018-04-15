@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/javaButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sqlButton"
+        android:layout_alignLeft="@+id/mvcButton"
+        android:layout_alignStart="@+id/mvcButton"
+        android:layout_marginBottom="20dp"
+        android:onClick="javaClick"
+        android:text="JAVA" />
+
+    <Button
+        android:id="@+id/sqlButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/otherButton"
+        android:layout_alignLeft="@+id/javaButton"
+        android:layout_alignStart="@+id/javaButton"
+        android:layout_marginBottom="23dp"
+        android:onClick="sqlClick"
+        android:text="SQL" />
+
+    <Button
+        android:id="@+id/otherButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sqlButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/sqlButton"
+        android:onClick="otherClick"
+        android:text="OTHER" />
+
+    <Button
+        android:id="@+id/mvcButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/javaButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:onClick="mvcClick"
+        android:text="MVC" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This application contains descriptions and examples of most of my skillset."
+        android:textAlignment="center"
+        android:layout_marginTop="39dp"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to my experience application."
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

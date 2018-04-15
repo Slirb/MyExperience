@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="For one of my classes, I had to create a payroll management system using PL/SQL.  I had to create a database using existing data, then perform weekly payroll operations on each employee.\n\nIn addition, each employee's PTO was handled by this system.  This was implemented on a webserver using Oracle's forms and reports software. " />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\nI have also use SQL databases in a large majority of all my other projects including multiple different variants." />
+</LinearLayout>

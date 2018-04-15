@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="In addition to the already described projects, I have experience using other languages and development environments.\n
+I have created many different webpages utilizing HTML, Javascript, and PHP.  Two noteworthy examples are:\n  A webstore that sold cookies using ASP.NET\n  An online DVD rental that allows for uniquie accounts to manage their DVD queue using PHP \n
+I have used Visual Basic and VBA to write standalone applications interfacing with databases, and also creating a custom Access database with a multitude of reports for a small business.\n
+I have experience with C++ and was asked to be a lab assistant/teachers aid during subsequent semesters." />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="In my final JAVA class, some classmates and I had to recreate a program that our professor had written during his career.  We had to create an application that would allow for creation of a patient and all data associated with that patient.  This data would be stored in a SQL database.\n\nAll of the forms had to allow for data creation, editing, and deletion.  In addition, a report had to be generated on demand for each patient containing all the pertinent records" />
+
+    <fragment
+        android:id="@+id/youtube_fragment"
+        android:name="com.google.android.youtube.player.YouTubePlayerFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

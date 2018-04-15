@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="For my senior project, I was part of a team that was asked to work with an outside client to develop software for their internal office use. \n\nWe decided to use Microsoft's MVC framework to best accomplish this task.  We chose MVC since their current iteration of the software was web-based and MVC would lessen the amount of work needed to interact with the database.\n\nHowever, up to this time nobody on the team had any experience with MVC.  As lead programmer, it would be mostly up to me to learn MVC in a short time to allow us to deliver a working application by the deadline.\n\nSince we could only talk to the client once a week for an hour to two, by the time we finished the requirements, we only had about two months to finish the project before we had to present it at the senior showcase and deliver the final version to the client." />
+
+
+    <fragment
+        android:id="@+id/youtube_fragment"
+        android:name="com.google.android.youtube.player.YouTubePlayerFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

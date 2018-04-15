@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.19"
+        android:text="When it comes to JAVA, my experience falls under two categories:"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07"
+        android:text="My general JAVA experience on desktop applications"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/javaDesktopButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="javaDesktopClick"
+        android:text="Desktop Apps" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.19" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:text="My experience writing Android applications using JAVA"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/javaAndroidButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="javaAndroidClick"
+        android:text="Android Apps" />
+</LinearLayout>
